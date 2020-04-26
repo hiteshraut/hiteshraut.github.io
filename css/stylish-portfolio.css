@@ -853,6 +853,19 @@ Modules - reusable parts of our design
     .cd-timeline-content .cd-date {
         padding: 0 0px 10px;
     }
+    .grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: auto !important;
+    max-width: 298px;
+    max-height: 250px;
+    width: 100% !important;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
 }
 @-webkit-keyframes cd-bounce-2 {
   0% {
